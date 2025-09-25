@@ -38,6 +38,7 @@ python3 chat.py
 - By default, trained models from train.py are stored in the [`/model`](./model) directory.
 
 #### Scripts:
-- **`train.py`** – Fine-tunes an LLM using QLoRA.
-- **`rag.py`** – Performs Retrieval-Augmented Generation (RAG) with the specified model.
-- **`chat.py`** – Starts an interactive chatbot for user queries.
+- **`train.py`**: Fine-tunes an LLM using QLoRA.
+- **`rag.py`**: Performs Retrieval-Augmented Generation (RAG) with the specified model.
+- **`chat.py`**: Starts an interactive chatbot for user queries.
+
