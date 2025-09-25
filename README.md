@@ -3,7 +3,7 @@
 
 ## ⚠️ Disclaimer  
 This repository documents my internship project at **Taishin International Bank**.  
-Due to the sensitivity of internal data, all training examples in this repository are either **synthetic (GPT-generated)** or based on **open-source datasets**.
+Due to the sensitivity of internal data, all training examples in this repository are either **synthetic (GPT-generated)** or based on **open-source datasets**.  
 **No proprietary or confidential company data is included.**
 
 ---
@@ -39,6 +39,7 @@ python3 chat.py
 - **`train.py`**: Fine-tunes an LLM using QLoRA.
 - **`rag.py`**: Performs Retrieval-Augmented Generation (RAG) with the specified model.
 - **`chat.py`**: Starts an interactive chatbot for user queries.
+
 
 
 
