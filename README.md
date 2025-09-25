@@ -3,16 +3,14 @@
 
 ## ⚠️ Disclaimer  
 This repository documents my internship project at **Taishin International Bank**.  
-Due to the sensitivity of internal data, all training examples in this repository are either **synthetic (GPT-generated)** or based on **open-source datasets**.  
-**No proprietary or confidential company data is included.**
+Due to the sensitivity of internal data, all training examples in this repository are either **synthetic (GPT-generated)** or based on **open-source datasets**. **No proprietary or confidential company data is included.**
 
 ---
 
 ## 📖 Introduction  
 In Taiwan, financial fraud has become increasingly rampant in recent years, with scams relying heavily on **localized language patterns and cultural nuances**. Off-the-shelf open-source models often fail to capture these regional fraud characteristics.  
 
-To address this, our team developed a **localized fraud-detection LLM** aimed at helping users safely analyze suspicious investment scenarios in a private environment.  
-**The full project pipeline and documentation** can be found under the [`/docs`](./docs) directory.  
+To address this, our team developed a **localized fraud-detection LLM** aimed at helping users safely analyze suspicious investment scenarios in a private environment. **The full project pipeline and documentation** can be found under the [`/docs`](./docs) directory.  
 
 ---
 
@@ -40,6 +38,7 @@ python3 chat.py
 - **`train.py`**: Fine-tunes an LLM using QLoRA.
 - **`rag.py`**: Performs Retrieval-Augmented Generation (RAG) with the specified model.
 - **`chat.py`**: Starts an interactive chatbot for user queries.
+
 
 
 
