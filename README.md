@@ -12,7 +12,6 @@ Due to the sensitivity of internal data, all training examples in this repositor
 In Taiwan, financial fraud has become increasingly rampant in recent years, with scams relying heavily on **localized language patterns and cultural nuances**. Off-the-shelf open-source models often fail to capture these regional fraud characteristics.  
 
 To address this, our team developed a **localized fraud-detection LLM** aimed at helping users safely analyze suspicious investment scenarios in a private environment.  
-
 Additional project materials are stored in the [`/docs`](./docs) directory.
 
 ---
@@ -41,6 +40,7 @@ python3 chat.py
 - **`train.py`**: Fine-tunes an LLM using QLoRA.
 - **`rag.py`**: Performs Retrieval-Augmented Generation (RAG) with the specified model.
 - **`chat.py`**: Starts an interactive chatbot for user queries.
+
 
 
 
