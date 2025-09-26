@@ -1,4 +1,5 @@
 # Internship – Taishin International Bank  
+<img src="docs/taishin-logo.png" alt="Taishin Bank Logo" width="70%" height="250"/>
 **LLM-based Fraud Detection Project**
 
 ## ⚠️ Disclaimer  
@@ -38,6 +39,7 @@ python3 chat.py
 - **`train.py`**: Fine-tunes an LLM using QLoRA.
 - **`rag.py`**: Performs Retrieval-Augmented Generation (RAG) with the specified model.
 - **`chat.py`**: Starts an interactive chatbot for user queries.
+
 
 
 
